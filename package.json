@@ -1,0 +1,19 @@
+{
+  "name": "pyshare-docs",
+  "version": "0.0.1",
+  "description": "Python 創作分享平台操作文件",
+  "main": "index.js",
+  "authors": {
+    "name": "TzuWei",
+    "email": "40747024s@gapps.ntnu.edu.tw"
+  },
+  "repository": "/pyShare-docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
