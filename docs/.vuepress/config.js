@@ -8,6 +8,8 @@ module.exports = {
    */
   description: 'Python 創作分享平台操作文件',
 
+  base: '/pyShare-docs/',
+
   /**
    * Extra tags to be injected to the page HTML `<head>`
    *
