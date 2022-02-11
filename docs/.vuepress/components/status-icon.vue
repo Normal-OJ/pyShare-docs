@@ -14,15 +14,26 @@
 
 <script>
 export default {
-  // n: not, a: ac, w: wa
+  // n: not, a: ac, w: wa, p: pending
   props: ['s'],
   data: (props) => {
-    const statusStyle = {
-      backgroundColor: props.s === 'n' ? 'transparent' : props.s === 'a' ? '#009688' : '#D32F2F',
-      borderColor: props.s === 'n' ? 'ccc' : props.s === 'a' ? '#009688' : '#D32F2F',
+    const bg = {
+      'n': 'transparent',
+      'a': '#009688',
+      'w': '#D32F2F',
+      'p': '#9E9E9E',
+    }
+    const bd = {
+      'n': '#9E9E9E',
+      'a': '#009688',
+      'w': '#D32F2F',
+      'p': '#9E9E9E',
     }
     return {
-      statusStyle,
+      statusStyle: {
+        backgroundColor: bg[props.s],
+        borderColor: bd[props.s],
+      },
     }
   },
 }

@@ -13,6 +13,7 @@ sidebar: auto
   <img
     :src="$withBase('/chair.jpg')"
     alt="Avatar"
+    class="no-border"
     style="width: 100px; height: 100px; border-radius: 100%; margin-bottom: 10px"
   >
   <span>資工系 蔣宗哲 教授</span>
@@ -27,6 +28,7 @@ sidebar: auto
       <img
         :src="$withBase('/uier.png')"
         alt="Avatar"
+        class="no-border"
         style="width: 80px; height: 80px; border-radius: 100%; margin-bottom: 10px"
       >
       <span>資工系 111 級 于子緯</span>
@@ -36,6 +38,7 @@ sidebar: auto
       <img
         :src="$withBase('/bogay.png')"
         alt="Avatar"
+        class="no-border"
         style="width: 80px; height: 80px; border-radius: 100%; margin-bottom: 10px"
       >
       <span>資工系 111 級 莊博傑</span>
@@ -45,6 +48,7 @@ sidebar: auto
       <img
         :src="$withBase('/skps2010.png')"
         alt="Avatar"
+        class="no-border"
         style="width: 80px; height: 80px; border-radius: 100%; margin-bottom: 10px"
       >
       <span>資工系 111 級 盧昭華</span>
@@ -57,11 +61,13 @@ sidebar: auto
   <img
     :src="$withBase('/pyshare.png')"
     alt="Logo"
+    class="no-border"
     style="height: 60px"
   >
   <img
     :src="$withBase('/ntnu.png')"
     alt="Logo"
+    class="no-border"
     style="height: 60px"
   >
 </div>
