@@ -16,13 +16,13 @@ sidebar: auto
     class="no-border"
     style="width: 100px; height: 100px; border-radius: 100%; margin-bottom: 10px"
   >
-  <span>資工系 蔣宗哲 教授</span>
-  <span style="font-family: monospace">tcchiang@ntnu.edu.tw</span>
+  <span>國立臺灣師範大學資工系 蔣宗哲 副教授</span>
+  <a style="font-family: monospace" href="mailto:tcchiang@ntnu.edu.tw">tcchiang@ntnu.edu.tw</a>
 </div>
 
 <div style="display: flex; flex-direction: column; align-items: center; margin-top: 20px">
   <h3 style="margin-bottom: 10px">開發團隊</h3>
-  <span style="margin-bottom: 10px; font-family: monospace">pyshare@noj.tw</span>
+  <a style="margin-bottom: 10px; font-family: monospace" href="mailto:pyshare@noj.tw">pyshare@noj.tw</a>
   <div style="display: flex; justify-content: center">
     <div style="display: flex; flex-direction: column; align-items: center; margin: 8px">
       <img

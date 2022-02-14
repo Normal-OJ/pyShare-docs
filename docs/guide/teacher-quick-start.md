@@ -5,6 +5,10 @@
 ## 一、登入
 申請一個教師帳號，登入平台
 
+若您尚無帳號，請來信聯絡計畫主持人：國立臺灣師範大學資工系蔣宗哲副教授
+
+電子信箱：[`tcchiang@ntnu.edu.tw`](mailto:tcchiang@ntnu.edu.tw)。
+
 ![Screenshot - Login](../images/login.png)
 
 ## 二、新增課程入口
