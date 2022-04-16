@@ -22,7 +22,7 @@
 ![Screenshot - NewCourse](../images/new-course.png)
 
 ## 四、新增學生入口
-進入新開設的課程，從左方導覽列進入「管理」，選擇「管理成員」，點擊右上角「新增學生」按鈕（亦可從「總覽」頁面中新增學生）
+進入新開設的課程，從左方導覽列進入「管理成員」，點擊右上角「新增學生」按鈕。
 
 ![Screenshot - Manage](../images/manage.png)
 

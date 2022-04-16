@@ -38,6 +38,10 @@ module.exports = {
         link: '/guide/',
       },
       {
+        text: '常見問題',
+        link: '/guide/faq',
+      },
+      {
         text: '關於平台',
         link: '/about/'
       },
@@ -45,7 +49,6 @@ module.exports = {
     sidebar: {
       '/guide/': [
         '',
-        'features',
         {
           title: '【教師】',
           collapsable: false,
@@ -65,6 +68,7 @@ module.exports = {
             'student-problem',
           ]
         },
+        'modules',
         'faq',
       ],
     }
