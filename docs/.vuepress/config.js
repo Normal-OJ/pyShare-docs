@@ -57,6 +57,7 @@ module.exports = {
             'teacher-challenge',
             'teacher-problem',
             'teacher-course',
+            'teacher-share',
           ]
         },
         {
