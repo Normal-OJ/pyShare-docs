@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>於測驗中提交作答 | Python 創作分享平台操作文件</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="Python 創作分享平台操作文件">
+    <meta name="theme-color" content="#0277bd">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="preload" href="/pyShare-docs/assets/css/0.styles.90b2cd35.css" as="style"><link rel="preload" href="/pyShare-docs/assets/js/app.1460f927.js" as="script"><link rel="preload" href="/pyShare-docs/assets/js/2.199f1141.js" as="script"><link rel="preload" href="/pyShare-docs/assets/js/12.4710df56.js" as="script"><link rel="preload" href="/pyShare-docs/assets/js/15.3526c7e3.js" as="script"><link rel="prefetch" href="/pyShare-docs/assets/js/10.f589ce73.js"><link rel="prefetch" href="/pyShare-docs/assets/js/11.710cf974.js"><link rel="prefetch" href="/pyShare-docs/assets/js/13.afa53f95.js"><link rel="prefetch" href="/pyShare-docs/assets/js/14.b34e2826.js"><link rel="prefetch" href="/pyShare-docs/assets/js/16.5dfe265b.js"><link rel="prefetch" href="/pyShare-docs/assets/js/17.dd8e32d5.js"><link rel="prefetch" href="/pyShare-docs/assets/js/18.21be9d99.js"><link rel="prefetch" href="/pyShare-docs/assets/js/19.a6cda92e.js"><link rel="prefetch" href="/pyShare-docs/assets/js/20.0eb708d3.js"><link rel="prefetch" href="/pyShare-docs/assets/js/21.d40d0317.js"><link rel="prefetch" href="/pyShare-docs/assets/js/22.d2901d0f.js"><link rel="prefetch" href="/pyShare-docs/assets/js/3.69ae3628.js"><link rel="prefetch" href="/pyShare-docs/assets/js/4.d6512343.js"><link rel="prefetch" href="/pyShare-docs/assets/js/5.01ca37d6.js"><link rel="prefetch" href="/pyShare-docs/assets/js/6.317460d4.js"><link rel="prefetch" href="/pyShare-docs/assets/js/7.86da154d.js"><link rel="prefetch" href="/pyShare-docs/assets/js/8.be52810d.js"><link rel="prefetch" href="/pyShare-docs/assets/js/9.51ba2036.js">
+    <link rel="stylesheet" href="/pyShare-docs/assets/css/0.styles.90b2cd35.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/pyShare-docs/" class="home-link router-link-active"><!----> <span class="site-name">Python 創作分享平台操作文件</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/pyShare-docs/guide/" class="nav-link router-link-active">
+  操作文件
+</a></div><div class="nav-item"><a href="/pyShare-docs/guide/faq.html" class="nav-link">
+  常見問題
+</a></div><div class="nav-item"><a href="/pyShare-docs/about/" class="nav-link">
+  關於平台
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/pyShare-docs/guide/" class="nav-link router-link-active">
+  操作文件
+</a></div><div class="nav-item"><a href="/pyShare-docs/guide/faq.html" class="nav-link">
+  常見問題
+</a></div><div class="nav-item"><a href="/pyShare-docs/about/" class="nav-link">
+  關於平台
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/pyShare-docs/guide/" aria-current="page" class="sidebar-link">功能簡介</a></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>【教師】</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/pyShare-docs/guide/teacher-quick-start.html" class="sidebar-link">快速上手</a></li><li><a href="/pyShare-docs/guide/teacher-challenge.html" class="sidebar-link">測驗</a></li><li><a href="/pyShare-docs/guide/teacher-problem.html" class="sidebar-link">主題與創作</a></li><li><a href="/pyShare-docs/guide/teacher-course.html" class="sidebar-link">課程管理</a></li><li><a href="/pyShare-docs/guide/teacher-share.html" class="sidebar-link">共享資源</a></li><li><a href="/pyShare-docs/guide/teacher-task.html" class="sidebar-link">任務系統</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>【學生】</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/pyShare-docs/guide/student-challenge.html" aria-current="page" class="active sidebar-link">於測驗中提交作答</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/pyShare-docs/guide/student-challenge.html#測驗列表頁面" class="sidebar-link">測驗列表頁面</a></li><li class="sidebar-sub-header"><a href="/pyShare-docs/guide/student-challenge.html#提交作答頁面" class="sidebar-link">提交作答頁面</a></li><li class="sidebar-sub-header"><a href="/pyShare-docs/guide/student-challenge.html#提交結果" class="sidebar-link">提交結果</a></li><li class="sidebar-sub-header"><a href="/pyShare-docs/guide/student-challenge.html#在測驗題型使用多筆測資" class="sidebar-link">在測驗題型使用多筆測資</a></li></ul></li><li><a href="/pyShare-docs/guide/student-creation.html" class="sidebar-link">於主題中創作</a></li><li><a href="/pyShare-docs/guide/student-problem.html" class="sidebar-link">發表主題</a></li></ul></section></li><li><a href="/pyShare-docs/guide/modules.html" class="sidebar-link">第三方函式庫列表</a></li><li><a href="/pyShare-docs/guide/faq.html" class="sidebar-link">常見問題</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="於測驗中提交作答"><a href="#於測驗中提交作答" class="header-anchor">#</a> 於測驗中提交作答</h1> <h2 id="測驗列表頁面"><a href="#測驗列表頁面" class="header-anchor">#</a> 測驗列表頁面</h2> <p>從課程中的左側導覽列可以找到「測驗」，點擊後即會來到測驗列表的頁面。</p> <p><img src="/pyShare-docs/assets/img/student-challenge-list.e5db1370.png" alt="測驗列表示意圖"></p> <p>題號左側有一個小的圓形圖示，代表自己該題的作答狀況，有以下三種樣式：</p> <table><thead><tr><th>樣式</th> <th>意思</th></tr></thead> <tbody><tr><td><div style="display:inline-block;margin-right:8px;height:10px;width:10px;border:1px solid #ccc;border-radius:100%;background-color:transparent;border-color:#9E9E9E;"></div>空心</td> <td>尚未作答</td></tr> <tr><td><div style="display:inline-block;margin-right:8px;height:10px;width:10px;border:1px solid #ccc;border-radius:100%;background-color:#009688;border-color:#009688;"></div>綠色實心</td> <td>已作答且結果正確（Accepted）</td></tr> <tr><td><div style="display:inline-block;margin-right:8px;height:10px;width:10px;border:1px solid #ccc;border-radius:100%;background-color:#D32F2F;border-color:#D32F2F;"></div>紅色實心</td> <td>已作答但結果錯誤</td></tr></tbody></table> <blockquote><p>關於作答的各種結果（如 Accepted, Wrong Answer）之定義，請閱讀 <a href="#%E6%8F%90%E4%BA%A4%E7%B5%90%E6%9E%9C">提交結果</a></p></blockquote> <h2 id="提交作答頁面"><a href="#提交作答頁面" class="header-anchor">#</a> 提交作答頁面</h2> <p>從測驗列表中點選題目，即會進入到作答頁面。</p> <p><img src="/pyShare-docs/assets/img/student-test-submit-challenge.c44f6551.jpg" alt="提交作答示意圖"></p> <p>撰寫完程式後，可以使用「測試」按鈕來測試程式，測試執行結果<strong>不會保存</strong>。
+或進行「送出」即提交正式的 Submission，執行結果會存入資料庫，並可隨時在頁面下方的歷史紀錄查看。</p> <h2 id="提交結果"><a href="#提交結果" class="header-anchor">#</a> 提交結果</h2> <p>程式結果包含三個部分：</p> <ol><li>評測結果，代表使用者的作答結果</li> <li>標準輸出，使用者的程式標準輸出（Standard Output）</li> <li>錯誤訊息，使用者的程式標準錯誤（Standard Error）</li></ol> <p>評測結果可能的值有以下：</p> <table><thead><tr><th>結果</th> <th>意思</th></tr></thead> <tbody><tr><td>Accepted</td> <td>使用者標準輸出與正確答案一致</td></tr> <tr><td>Wrong Answer</td> <td>使用者標準輸出與正確答案不一致（系統會忽略輸出於行末的多餘空白、檔案末的多餘換行）</td></tr> <tr><td>Time Limit Exceed</td> <td>程式運行時間超出時限（目前限制 10 秒）</td></tr> <tr><td>Memory Limit Exceed</td> <td>程式運行使用之記憶體超出限制（目前限制 128 MB） ）</td></tr> <tr><td>RunTime Error</td> <td>程式有語法錯誤或執行時發生例外情形</td></tr></tbody></table> <p>另外，目前輸出大小限制為 4 KB，若超過會直接顯示以下錯誤訊息於「錯誤訊息」中：</p> <div class="language- extra-class"><pre class="language-text"><code>執行失敗: 輸出大小超過系統限制，無法評測！
+</code></pre></div><h2 id="在測驗題型使用多筆測資"><a href="#在測驗題型使用多筆測資" class="header-anchor">#</a> 在測驗題型使用多筆測資</h2> <p>若測驗有說明測試方式為<strong>多筆測資</strong>，請以迴圈進行讀取，並捕獲例外情形，例如以下 A+B Problem 的範例：</p> <p>輸入</p> <div class="language- extra-class"><pre class="language-text"><code>1 2
+3 4
+</code></pre></div><p>輸出</p> <div class="language- extra-class"><pre class="language-text"><code>3
+7
+</code></pre></div><p>作答程式範例</p> <div class="language-python extra-class"><pre class="language-python"><code><span class="token keyword">while</span> <span class="token boolean">True</span><span class="token punctuation">:</span>
+    <span class="token keyword">try</span><span class="token punctuation">:</span>
+        <span class="token comment"># 在此撰寫作答程式</span>
+        a<span class="token punctuation">,</span> b <span class="token operator">=</span> <span class="token builtin">input</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>split<span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token builtin">int</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token builtin">int</span><span class="token punctuation">(</span>b<span class="token punctuation">)</span><span class="token punctuation">)</span>
+    <span class="token keyword">except</span><span class="token punctuation">:</span>
+        <span class="token comment"># 輸入檔已讀取完畢，捕獲例外情形</span>
+        <span class="token keyword">break</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/pyShare-docs/guide/teacher-task.html" class="prev">
+        任務系統
+      </a></span> <span class="next"><a href="/pyShare-docs/guide/student-creation.html">
+        於主題中創作
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/pyShare-docs/assets/js/app.1460f927.js" defer></script><script src="/pyShare-docs/assets/js/2.199f1141.js" defer></script><script src="/pyShare-docs/assets/js/12.4710df56.js" defer></script><script src="/pyShare-docs/assets/js/15.3526c7e3.js" defer></script>
+  </body>
+</html>

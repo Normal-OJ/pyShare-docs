@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>共享資源 | Python 創作分享平台操作文件</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="Python 創作分享平台操作文件">
+    <meta name="theme-color" content="#0277bd">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="preload" href="/pyShare-docs/assets/css/0.styles.90b2cd35.css" as="style"><link rel="preload" href="/pyShare-docs/assets/js/app.1460f927.js" as="script"><link rel="preload" href="/pyShare-docs/assets/js/2.199f1141.js" as="script"><link rel="preload" href="/pyShare-docs/assets/js/8.be52810d.js" as="script"><link rel="prefetch" href="/pyShare-docs/assets/js/10.f589ce73.js"><link rel="prefetch" href="/pyShare-docs/assets/js/11.710cf974.js"><link rel="prefetch" href="/pyShare-docs/assets/js/12.4710df56.js"><link rel="prefetch" href="/pyShare-docs/assets/js/13.afa53f95.js"><link rel="prefetch" href="/pyShare-docs/assets/js/14.b34e2826.js"><link rel="prefetch" href="/pyShare-docs/assets/js/15.3526c7e3.js"><link rel="prefetch" href="/pyShare-docs/assets/js/16.5dfe265b.js"><link rel="prefetch" href="/pyShare-docs/assets/js/17.dd8e32d5.js"><link rel="prefetch" href="/pyShare-docs/assets/js/18.21be9d99.js"><link rel="prefetch" href="/pyShare-docs/assets/js/19.a6cda92e.js"><link rel="prefetch" href="/pyShare-docs/assets/js/20.0eb708d3.js"><link rel="prefetch" href="/pyShare-docs/assets/js/21.d40d0317.js"><link rel="prefetch" href="/pyShare-docs/assets/js/22.d2901d0f.js"><link rel="prefetch" href="/pyShare-docs/assets/js/3.69ae3628.js"><link rel="prefetch" href="/pyShare-docs/assets/js/4.d6512343.js"><link rel="prefetch" href="/pyShare-docs/assets/js/5.01ca37d6.js"><link rel="prefetch" href="/pyShare-docs/assets/js/6.317460d4.js"><link rel="prefetch" href="/pyShare-docs/assets/js/7.86da154d.js"><link rel="prefetch" href="/pyShare-docs/assets/js/9.51ba2036.js">
+    <link rel="stylesheet" href="/pyShare-docs/assets/css/0.styles.90b2cd35.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/pyShare-docs/" class="home-link router-link-active"><!----> <span class="site-name">Python 創作分享平台操作文件</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/pyShare-docs/guide/" class="nav-link router-link-active">
+  操作文件
+</a></div><div class="nav-item"><a href="/pyShare-docs/guide/faq.html" class="nav-link">
+  常見問題
+</a></div><div class="nav-item"><a href="/pyShare-docs/about/" class="nav-link">
+  關於平台
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/pyShare-docs/guide/" class="nav-link router-link-active">
+  操作文件
+</a></div><div class="nav-item"><a href="/pyShare-docs/guide/faq.html" class="nav-link">
+  常見問題
+</a></div><div class="nav-item"><a href="/pyShare-docs/about/" class="nav-link">
+  關於平台
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/pyShare-docs/guide/" aria-current="page" class="sidebar-link">功能簡介</a></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>【教師】</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/pyShare-docs/guide/teacher-quick-start.html" class="sidebar-link">快速上手</a></li><li><a href="/pyShare-docs/guide/teacher-challenge.html" class="sidebar-link">測驗</a></li><li><a href="/pyShare-docs/guide/teacher-problem.html" class="sidebar-link">主題與創作</a></li><li><a href="/pyShare-docs/guide/teacher-course.html" class="sidebar-link">課程管理</a></li><li><a href="/pyShare-docs/guide/teacher-share.html" aria-current="page" class="active sidebar-link">共享資源</a></li><li><a href="/pyShare-docs/guide/teacher-task.html" class="sidebar-link">任務系統</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>【學生】</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/pyShare-docs/guide/student-challenge.html" class="sidebar-link">於測驗中提交作答</a></li><li><a href="/pyShare-docs/guide/student-creation.html" class="sidebar-link">於主題中創作</a></li><li><a href="/pyShare-docs/guide/student-problem.html" class="sidebar-link">發表主題</a></li></ul></section></li><li><a href="/pyShare-docs/guide/modules.html" class="sidebar-link">第三方函式庫列表</a></li><li><a href="/pyShare-docs/guide/faq.html" class="sidebar-link">常見問題</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="共享資源"><a href="#共享資源" class="header-anchor">#</a> 共享資源</h1> <p>在此區可以複製<strong>資料集</strong>、<strong>主題</strong>、<strong>測驗</strong>到自己的課程中。</p> <p>其中，資料集是<strong>學生</strong>亦可瀏覽與複製的資源，而主題和測驗<strong>僅老師</strong>可以使用。</p> <p>欲複製多個資源，勾選資源左側的方框後，再點擊螢幕下方中間的複製按鈕即可。</p> <p><img src="/pyShare-docs/assets/img/share-dataset.1a4c16ef.png" alt="共享資料集示意圖"></p> <p><img src="/pyShare-docs/assets/img/share-problem.878919ff.png" alt="共享主題示意圖"></p> <p><img src="/pyShare-docs/assets/img/share-challenge.a7f0cd86.png" alt="共享測驗示意圖"></p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/pyShare-docs/guide/teacher-course.html" class="prev">
+        課程管理
+      </a></span> <span class="next"><a href="/pyShare-docs/guide/teacher-task.html">
+        任務系統
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/pyShare-docs/assets/js/app.1460f927.js" defer></script><script src="/pyShare-docs/assets/js/2.199f1141.js" defer></script><script src="/pyShare-docs/assets/js/8.be52810d.js" defer></script>
+  </body>
+</html>
