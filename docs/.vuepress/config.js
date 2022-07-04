@@ -58,6 +58,7 @@ module.exports = {
             'teacher-problem',
             'teacher-course',
             'teacher-share',
+            'teacher-task',
           ]
         },
         {
